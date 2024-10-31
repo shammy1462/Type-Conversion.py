@@ -1,0 +1,8 @@
+float_value = 10.6411
+string_value = "Stringline!"
+
+integer_value = int(float_value)
+
+multiplied_string = string_value * 2
+print(f"Integer conversion cannot do roundings: {integer_value}")
+print(f"Multiplying strings also causes trouble: {multiplied_string}")
